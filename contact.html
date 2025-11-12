@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Chandana</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Contact Me</h1>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="about.html">Bio-data</a> |
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <form id="contactForm">
+      <label for="name">Name</label>
+      <input type="text" id="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" rows="5" required></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+
+    <div id="result" style="display:none; margin-top:15px; color:green;"></div>
+  </main>
+
+  <footer>
+    <p>© 2025 Chandana</p>
+  </footer>
+</body>
+</html>

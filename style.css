@@ -1,0 +1,92 @@
+/* ---------- General Page Setup ---------- */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  background-color: #f5f7fa;
+  color: #222;
+}
+
+/* ---------- Header ---------- */
+header {
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  margin-bottom: 5px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* ---------- Main Section ---------- */
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  background-color: white;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #007bff;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 5px;
+}
+
+/* ---------- Form Styling ---------- */
+label {
+  display: block;
+  margin-top: 12px;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* ---------- Footer ---------- */
+footer {
+  text-align: center;
+  padding: 12px;
+  color: #555;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
